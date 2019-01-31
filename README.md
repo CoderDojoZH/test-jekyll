@@ -94,6 +94,9 @@ After the end the the `<header>` add the list of the languages:
   - <https://www.klaasnotfound.com/2017/02/16/proper-multilingual-site-with-github-pages-and-jekyll/>
   - <https://github.com/Anthony-Gaudino/jekyll-multiple-languages-plugin>
 
+## Pushing to Github (pages)
+
+- If the page is for a repository, we need to set the name of the repository as the "baseurl" in the `_config.yml` file.
 
 ## Todo
 

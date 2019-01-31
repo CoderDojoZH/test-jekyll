@@ -1,0 +1,14 @@
+---
+---
+
+
+@import "{{ site.theme }}";
+
+$background-color: black;
+
+header.site-header {
+    background-color: red;
+}
+a.site-title {
+    background-color: black !important;
+}
