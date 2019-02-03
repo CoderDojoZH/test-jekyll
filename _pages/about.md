@@ -11,9 +11,14 @@ lang: en
 
 ...
 
+# Our mentors
+
 # Our past challenges
 
 - ...
+
+# Our sponsors
+
 
 # CoderDojo International
 

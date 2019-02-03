@@ -131,6 +131,12 @@ Warning: in order to know which file you have to create, you should have a look 
 
 Plugins: plugins do not work for gh-pages anyway
 
+Inspiration:
+
+- https://www.coderdojo-deutschland.de
+- https://codeclub.heig-vd.ch
+- https://coderdojo-linz.github.io
+
 ##  Resources
 
 - https://jekyllrb.com/tutorials/using-jekyll-with-bundler/
