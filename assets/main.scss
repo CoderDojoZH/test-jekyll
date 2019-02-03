@@ -2,3 +2,101 @@
 ---
 
 @import "{{ site.theme }}";
+
+a.site-logo img {
+    float:left;
+    height:50px;
+}
+
+nav.site-nav a.page-link {
+  display: inline-block;
+  padding: .4rem .8rem;
+  margin-right: .2rem!important;
+}
+
+nav.site-nav a.page-link:hover {
+  text-decoration:none;
+}
+
+nav.site-nav a.page-link:hover {
+  box-shadow: -6px -5px 10px hsla(0,0%,0%,.15);
+}
+
+nav.site-nav a.page-link.index {
+  color: white;
+  background-color: hsl(37,80%,54%); 
+}
+
+nav.site-nav a.page-link.index:hover {
+  transform: scale(1.2) rotate(-11deg);
+}
+
+nav.site-nav a.page-link.join-us {
+  color: white;
+  background-color: hsl(272,42%,48%);
+}
+
+nav.site-nav a.page-link.join-us:hover {
+  transform: scale(1.2) rotate(-4deg);
+}
+
+nav.site-nav a.page-link.material {
+  color: white;
+  background-color: hsl(120,38%,50%);
+}
+
+nav.site-nav a.page-link.material:hover {
+  transform: scale(1.2) rotate(3deg);
+}
+
+nav.site-nav a.page-link.about {
+  color: white;
+  background-color: hsl(358,49%,56%);
+}
+
+nav.site-nav a.page-link.about:hover {
+  transform: scale(1.2) rotate(10deg);
+}
+
+nav.site-nav a.page-link.contact {
+  color: white;
+  background-color: hsl(199,100%,47%);
+}
+
+nav.site-nav a.page-link.contact:hover {
+  transform: scale(1.2) rotate(17deg);
+}
+
+p.button {
+  margin-bottom:2em;
+  font-size: 1.6em;
+}
+p.button.participant {
+  color: hsl(37,96%,54%);
+}
+
+p.button a {
+  padding: .3em .6em;
+  border-radius: .3em;
+  text-decoration: none;
+  border: 1px solid black;
+  color: black;
+}
+
+p.button.participant a {
+  color: hsl(37,96%,54%);
+  background-color: hsl(37,96%,90%);
+  border: 1px solid hsl(37,96%,54%);
+}
+
+p.button.mentor a {
+  color: hsl(272,39%,44%);
+  background-color: hsl(272,39%,90%);
+  border: 1px solid hsl(272,39%,44%);
+}
+
+p.button.parent a {
+  color: hsl(120,43%,50%);
+  background-color: hsl(120,43%,90%);
+  border: 1px solid hsl(120,43%,50%);
+}

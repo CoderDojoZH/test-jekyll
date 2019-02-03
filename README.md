@@ -72,6 +72,7 @@ $ bundle update
 ```
 {% assign pages=site.pages | where:"lang", page.lang %}
 {% for my_page in pages %}
+{% endfor %}
 ```
 
 After the end the the `<header>` add the list of the languages:
@@ -94,13 +95,37 @@ After the end the the `<header>` add the list of the languages:
   - <https://www.klaasnotfound.com/2017/02/16/proper-multilingual-site-with-github-pages-and-jekyll/>
   - <https://github.com/Anthony-Gaudino/jekyll-multiple-languages-plugin>
 
+## Tweaking the css
+
+Add a `assets/main.scss` file with the content:
+
+```scss
+---
+---
+
+@import "{{ site.theme }}";
+```
+
+You can then add custom css directives after the import line.
+
+Warning: in order to know which file you have to create, you should have a look at the `_site/assets/` directory and the main css file (currently `_site/assets/main.css`).
+
+- Adding a responsive theme:
+  - https://pages.github.com/themes/
+  - https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site/
+  - https://github.com/sgroth/jekyll-stefangroth a page created with jekyll and spectre.
+  - https://github.com/jpasholk/jekyll-spectre (a work in progress spectre.css based theme for jekyll)
+  - have a look at grav's quark theme.
+  - get inspiration from https://github.com/mmistakes/so-simple-theme ?
+
 ## Pushing to Github (pages)
 
 - If the page is for a repository, we need to set the name of the repository as the "baseurl" in the `_config.yml` file.
 
-## Todo
+## Pages
 
-- find out how to overload the scss with `_site/assets/main.scss` 
+- How to put pages in `_pages`: <https://github.com/jekyll/jekyll/issues/920#issuecomment-431742165>
+- Pages that are not listed in the menu have `exclude: true` (https://mycyberuniverse.com/exclude-pages-from-navigation-menu-in-jekyll.html)
 
 ## Notes
 

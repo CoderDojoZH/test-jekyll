@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Über uns
-order: 2
+order: 4
 permalink: /ueber-uns
 ref: about
 lang: de
