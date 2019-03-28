@@ -1,0 +1,48 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+            </li>
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+						{% if site.coderdojo.place_and_time != '' %}
+						{% if page.lang == 'en' %}
+						<p>{{- site.coderdojo.place_and_time.en  -}}</p>
+						{% else if page.lang == 'de' %}
+						<p>{{ site.coderdojo.place_and_time.de }}</p>
+						{% endif %}
+						{% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        {% if site.description != '' %}
+        <p>{{- site.description | escape -}}</p>
+        {% else if site.footer_logo %}
+        <p class="logo">
+        <img src="{{ site.baseurl }}/assets/images/{{site.coderdojo.footer_logo}}">
+        </p>
+        {% endif %}
+      </div>
+    </div>
+
+  </div>
+
+</footer>

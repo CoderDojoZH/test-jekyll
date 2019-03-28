@@ -1,9 +1,22 @@
 ---
 layout: page
-title: Materiell
+title: Material
 order: 3
-permalink: /materiell
+permalink: /lernmaterial
 ref: material
 lang: de
 ---
 
+# Lernmaterial
+
+## Lightbot
+
+## Scratch
+
+## Python, Pygame und Pygame-Zero
+
+## Lua und Love
+
+## Makey Makey
+
+## Thymio

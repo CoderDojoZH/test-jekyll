@@ -1,0 +1,28 @@
+<figure class="video">
+<video id="video" muted controls class="fill">
+</video>
+<p id="video-title"></p>
+</figure>
+
+<script>
+
+var videos = {{ site.coderdojo.videos | jsonify }}
+
+var video = document.getElementById('video');
+var source = document.createElement('source');
+
+var random = Math.floor(Math.random()  * videos.length);
+
+console.log(videos)
+source.setAttribute('src', '{{ site.baseurl }}/assets/videos/'+videos[random].file);
+source.setAttribute('type', 'video/mp4');
+
+video.appendChild(source);
+
+
+var title = document.getElementById('video-title');
+
+title.innerHTML = videos[random].{{ page.lang }}
+
+// video.play();
+</script>

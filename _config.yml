@@ -14,11 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: CoderDojo Zürich
-email: your-email@example.com
+email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
 baseurl: "/test-jekyll" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: CoderDojoZh
@@ -36,6 +33,31 @@ collections:
     permalink: /:_pages/
 
 logo: coderdojo-zh-small.png
+
+coderdojo:
+  footer_logo: coderdojo-zh-bended-02.svg
+  place_and_time:
+    en: Sunday, 15:00 – 17:00<br>
+      Limmatplatz 183<br>
+      Zurich
+    de: Sonntag, 15:00 – 17:00<br>
+      Limmatplatz 183<br>
+      Zürich"
+  videos:
+    - en: Coderdojo 2017 – Environment Protection Challenge
+      de: Coderdojo 2017 – Umweltschutz Challenge
+      file: coderdojo-2017-environment-protection-challenge.mp4
+    - en: Coderdojo 2018 – Safety in the move Challenge
+      de: Coderdojo 2018 – Sicher unterwegs Challenge
+      file: coderdojo-2018-safety-in-the-move-challenge.mp4
+    - en: Coderdojo 2019 Cyberprotection Challenge
+      de: Coderdojo 2019 Cyberprotection Challenge
+      file: coderdojo-2019-cyberprotection-challenge.mp4
+  scratch-of-the-week: 282753934
+  # put two challenge description in _pages/partials/
+  # challenge-2019-12.md and challenge-2018-12-de.md
+  # and set challegne to challenge-2018-12
+  challenge: 
 
 # exclude:
 #   - README.md
