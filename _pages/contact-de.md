@@ -7,6 +7,8 @@ ref: contact
 lang: de
 ---
 
+# Kontakt
+
 Am besten sind wir über [@CoderDojoZh auf Twitter](https://twitter.com/CoderDojoZH) und unsere [meetup page](http://meetup.com/Coder-Dojo-Zurich) zu erreichen.
 
 Oder schau einfach an einem Sonntagnachmittag vorbei!
