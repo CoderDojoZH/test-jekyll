@@ -1,4 +1,6 @@
-# Installing Jekyll for Github pages as a local project on Linux
+# Jekyll for CoderDojo Zürich
+
+## Installing Jekyll for Github pages as a local project on Linux
 
 Install Ruby as needed by Jekyll:
 
@@ -39,7 +41,7 @@ Install Jekyll in your project's directory:
 $ bundle install --path vendor/bundle
 ```
 
-## Creating the the scaffold
+### Creating the the scaffold
 
 ```sh
 $ bundle exec jekyll new --force --skip-bundle .
@@ -51,20 +53,20 @@ Edit the `Gemfile` that has been created to get the same Jekyll version as insta
 - uncomment the line `gem "github-pages", group: :jekyll_plugins`
 - run `bundle install`
 
-## Running locally
+### Running locally
 
 
 ```
 $ bundle exec jekyll serve
 ```
 
-## Updating the gems
+### Updating the gems
 
 ```sh
 $ bundle update
 ```
 
-## English and german
+### English and german
 
 - Create each page as a md file in each language and with different names.
 - copy the theme (in the default install it's in the `minima` gem) `_include/header.html` and adjust the pages loop to:
@@ -95,7 +97,7 @@ After the end the the `<header>` add the list of the languages:
   - <https://www.klaasnotfound.com/2017/02/16/proper-multilingual-site-with-github-pages-and-jekyll/>
   - <https://github.com/Anthony-Gaudino/jekyll-multiple-languages-plugin>
 
-## Tweaking the css
+### Tweaking the css
 
 Add a `assets/main.scss` file with the content:
 
@@ -118,16 +120,16 @@ Warning: in order to know which file you have to create, you should have a look 
   - have a look at grav's quark theme.
   - get inspiration from https://github.com/mmistakes/so-simple-theme ?
 
-## Pushing to Github (pages)
+### Pushing to Github (pages)
 
 - If the page is for a repository, we need to set the name of the repository as the "baseurl" in the `_config.yml` file.
 
-## Pages
+### Pages
 
 - How to put pages in `_pages`: <https://github.com/jekyll/jekyll/issues/920#issuecomment-431742165>
 - Pages that are not listed in the menu have `exclude: true` (https://mycyberuniverse.com/exclude-pages-from-navigation-menu-in-jekyll.html)
 
-## Notes
+### Notes
 
 Plugins: plugins do not work for gh-pages anyway
 
@@ -137,7 +139,7 @@ Inspiration:
 - https://codeclub.heig-vd.ch
 - https://coderdojo-linz.github.io
 
-##  Resources
+###  Resources
 
 - https://jekyllrb.com/tutorials/using-jekyll-with-bundler/
 - https://jekyllrb.com/docs/installation/ubuntu/
