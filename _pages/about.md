@@ -17,9 +17,9 @@ We have been having weekly events since spring 2014.
 
 Our main organizers are:
 
-- Ale
-- Bartosz
-- Paulina
+|---|---|---|
+|![]({{ site.baseurl }}/images/mentor-ale.png){:width="200"}|![]({{ site.baseurl }}/images/mentor-bartosz.png){:width="200"}| |
+| Ale | Bartosz | Paulina |
 
 Currently, our "adult" mentors are:
 
