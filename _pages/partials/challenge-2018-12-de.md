@@ -10,6 +10,3 @@ Ninjas, die an der Challenge teilnehmen, haben 3 Monate Zeit, ein Spiel, eine Pr
 Während des Challenge-Finales werden einige der Ninjas ihre in den letzten Wochen realisierten Projekte vorstellen. 
 
 Wir würden uns sehr freuen, Sie beim Challenge-Finale und später bei den regelmässigen CoderDojo-Sitzungen zu treffen.
-
-Sunday, December 9th  
-14:00 – 17:30
