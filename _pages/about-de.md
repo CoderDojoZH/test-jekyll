@@ -18,7 +18,7 @@ Seit dem Frühjahr 2014 haben wir wöchentliche Veranstaltungen.
 Unsere Hauptorganisatoren sind:
 
 |---|---|---|
-|![]({{ site.baseurl }}/images/mentor-ale.png){:width="200"}|![]({{ site.baseurl }}/images/mentor-bartosz.png){:width="200"}| |
+|![]({{ site.baseurl }}/images/mentor-ale-adi.jpg){:width="200"}|![]({{ site.baseurl }}/images/mentor-bartosz.png){:width="200"}| |
 | Ale | Bartosz | Paulina |
 
 Zurzeit unsere Mentoren sind:
