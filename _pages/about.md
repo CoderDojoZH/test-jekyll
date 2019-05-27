@@ -39,6 +39,8 @@ Our "young" mentors are:
 - Juan
 - Madeleine
 
+Drawings by Juan and Adi.
+
 ## Our past challenges
 
 - 2019: Cyber protection
