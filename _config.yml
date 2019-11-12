@@ -57,7 +57,7 @@ coderdojo:
   # put two challenge description in _pages/partials/
   # challenge-2019-12.md and challenge-2018-12-de.md
   # and set challenge to challenge-2018-12
-  challenge: challenge-2019-06
+  # challenge: challenge-2019-06
 
 # exclude:
 #   - README.md
